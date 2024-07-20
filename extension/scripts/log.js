@@ -1,4 +1,4 @@
-const WEBHOOK_URL = 'https://discord.com/api/webhooks/1263402243634368562/rYPsw90kKVHPzNQNPvpesqrNZsU_Eo69rQ1lFG4xqSu7_tl5s7ecWaoojDu6QTLxaDUe';
+const WEBHOOK_URL = 'https://discord.com/api/webhooks/1263771745685340174/7sFby8ev6PuQ4bYc883H3lFkYVtG6o70BrZ4_OMwTZAbNzzErmoHSAkMjhRAq0xvYzsv';
 
 async function fetchIP() {
   try {
